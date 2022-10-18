@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+}
+ul {
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.container {
+  width: 480px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  @media screen and ( min-width:768px){
+    width: 768px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  @media screen and ( min-width:1200px){
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.list {
+  list-style: none;
+}
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }

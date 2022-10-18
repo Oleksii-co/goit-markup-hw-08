@@ -1,0 +1,20 @@
+//base
+@import "./base/variables";
+@import "./base/common";
+@import "./base/logo";
+
+//layouts
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/about";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/portfolio";
+
+//components
+@import "./components/modal";
+@import "./components/form";
+
+
