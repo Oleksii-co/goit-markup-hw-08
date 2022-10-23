@@ -5,9 +5,67 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("./../images/bg-Img.jpg");
+    url(./../../images/mob/Header\ img.jpg);
+    @media (min-device-pixel-ratio:2),
+(min-resolution: 192dpi),
+(min-resolution:2dppx){
+  
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ),
+  url(./../../images/mob/Header\ img\ 2x.jpg);
+}
+
+    @media (min-device-pixel-ratio:2),
+(min-resolution: 192dpi),
+(min-resolution:2dppx){
+  
+}
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media screen and(min-width:768px) {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(./../../images/tabl/Header\ img.jpg);
+
+    @media (min-device-pixel-ratio:2),
+(min-resolution: 192dpi),
+(min-resolution:2dppx){
+  
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ),
+url(./../../images/tabl/Header\ img\ 2x.jpg)
+}
+  }
+
+  @media screen and(min-width:1200px) {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(./../../images/bg-Img.jpg);
+
+    @media (min-device-pixel-ratio:2),
+(min-resolution: 192dpi),
+(min-resolution:2dppx){
+  
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ),
+  url(./../../images/bg-Img\ 2x.jpg);
+}
+  }
+
+  @media screen and(min-width:1200px) {
+    padding: 200px 0;
+  }
   &__container{
     text-align: center;
   }
