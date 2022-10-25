@@ -4,7 +4,7 @@
   background-image:linear-gradient(
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
-  ), url(./../../images/phone/hero-mob-img.jpg);
+  ), url(.//../../images/phone/hero-mob-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   @media (min-device-pixel-ratio: 2),
@@ -14,14 +14,14 @@
       background-image:linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
-      ), url(./../images/phone/hero-mob-img2x.jpg);
+      ), url(.//../images/phone/hero-mob-img2x.jpg);
     }
   }
   @media screen and(min-width:768px) {
     background-image:linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
-    ), url(./../../images/tablet/hero-tabl-img.jpg);
+    ), url(.//../../images/tablet/hero-tabl-img.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -29,7 +29,7 @@
         background-image:linear-gradient(
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
-        ), url(./../images/tablet/hero-tabl-img2x.jpg);
+        ), url(.//../images/tablet/hero-tabl-img2x.jpg);
       }
     }
   }
@@ -37,7 +37,7 @@
     background-image:linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
-    ), url(./../../images/hero-img.jpg);
+    ), url(.//../../images/hero-img.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -45,7 +45,7 @@
         background-image:linear-gradient(
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
-        ), url(./../../images/hero-img2x.jpg);
+        ), url(.//../../images/hero-img2x.jpg);
       }
     }
   }
