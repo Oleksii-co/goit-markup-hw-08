@@ -51,18 +51,15 @@
   }
 &-card{
   min-width: 450px;
-  min-height: 622px;
   margin-bottom: 30px;
 
   @media screen and(min-width: 768px) {
     margin-bottom: 0;
     min-width: 354px;
-    min-height: 536px;
   }
   @media screen and(min-width:1200px){
          flex-basis: calc(100% / 4 - 30px);
          min-width: 270px;
-         min-height: 428px;
     margin-right: 30px; 
       &:last-child {
     margin-right: 0;
@@ -73,14 +70,6 @@
   &-card__photo {
     margin-bottom: 30px;
     width: 100%;
-    min-height: 460px;
-    @media screen and(min-width: 768px) {
-      min-height: 374px;
-    }
-    @media screen and(min-width: 1200px) {
-      min-height: 260px;
-    }
-    
   }
   &__name {
     color: var(--primary-text-color);
