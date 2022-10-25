@@ -2,6 +2,7 @@
   background-color: #fff;
   border-bottom: 1px solid #ececec;
   position: relative;
+
   &__container {
     @media screen and(min-width: 768px) {
       display: flex;
@@ -26,20 +27,23 @@
   }
   &__menu {
     display: none;
+    // transform: translateX(100%);
     position: absolute;
     background-color: var(--tertiary-text-color);
-    width: 100%;
-    height: 796px;
-    padding-left: 40px;
-    padding-bottom: 48px;
+    width: 100vw;
+    height:100vh;
+    // padding-left: 40px;
+    // padding-bottom: 48px;
     padding: 48px 0 48px 40px;
     top: 0;
     left: 0;
     &.is-open {
-      display: block;
+      // transform: translateX(0);
+display: block;
       @media screen and(min-width:768px) {
         display: flex;
         align-items: center;
+        height: 80px;
       }
     }
     @media screen and(min-width:768px) {
@@ -168,20 +172,24 @@ margin-right: 30px;
       letter-spacing: 0.02em;
       display: flex;
       align-items: center;
+      color: var(--secondary-text-color);
 
+      &:hover,
+      &:focus {
+        color: var(--accent-color);
+      }
     }
     @media screen and(min-width:1200px) {
       padding-top: 32px;
       padding-bottom: 32px;
     }
-    &:hover,
-    &:focus {
-      color: var(--accent-color);
     }
-  }
+
+
   &-address__link.phone {
     font-size: 34px;
     line-height: 40px;
+    color:var(--accent-color);
     @media screen and(min-width:768px) {
       font-weight: 500;
       font-size: 12px;
@@ -189,7 +197,15 @@ margin-right: 30px;
       letter-spacing: 0.02em;
       display: flex;
       align-items: center;
+      color: var(--secondary-text-color);
+      &:hover,
+      &:focus{
+        color: var(--accent-color);
+      }
     }
+    
+
+
     @media screen and(min-width:1200px) {
       padding-top: 32px;
       padding-bottom: 32px;
@@ -242,10 +258,7 @@ margin-right: 30px;
     text-decoration: none;
     color: var(--secondary-text-color);
 
-    &:hover,
-    &:focus {
-      color: var(--accent-color);
-    }
+color: var(--accent-color);
   }
 
 .menu-button {
@@ -283,7 +296,9 @@ margin-right: 30px;
 .menu-button:hover,.menu-button:focus .icon-close{
   fill: var(--accent-color);
 }
-
+.curent {
+  color: var(--accent-color);
+}
 
 // .menu-button:hover .icon-close,
 // .menu-button:focus .icon-close{
@@ -303,9 +318,7 @@ margin-right: 30px;
 // .js-open-menu.is-open .icon-open {
 //   display: none;
 // }
-// .curent {
-//   color: var(--accent-color);
-// }
+
 
 // .header {
 //   background-color: #fff;
